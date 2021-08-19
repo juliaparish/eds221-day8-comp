@@ -143,7 +143,7 @@ liz_count_plot2
 lizard_counts2 <- lizard_counts %>% 
   mutate(common_name = fct_reorder(common_name, count))
 
-class(lizard_counts2$common_name)
+class(lizard_counts$common_name)
 levels(lizard_counts2$common_name)
 ```
 
